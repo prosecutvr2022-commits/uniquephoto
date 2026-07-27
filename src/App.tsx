@@ -32,20 +32,16 @@ export default function App() {
 
   const [submissions, setSubmissions] = useState<SubmissionRecord[]>([]);
 
-  // Automatic open of Jotform AI Chatbot after 5.5 seconds unless closed in session
+  // Automatic open of Jotform AI Chatbot after 6 seconds of home page loading
   useEffect(() => {
-    const hasClosedInSession = sessionStorage.getItem('jotform_chat_closed');
-    if (!hasClosedInSession) {
-      const timer = setTimeout(() => {
-        setIsChatOpen(true);
-      }, 5500);
-      return () => clearTimeout(timer);
-    }
+    const timer = setTimeout(() => {
+      setIsChatOpen(true);
+    }, 6000);
+    return () => clearTimeout(timer);
   }, []);
 
   const handleCloseChat = () => {
     setIsChatOpen(false);
-    sessionStorage.setItem('jotform_chat_closed', 'true');
   };
 
   const handleOpenChatManual = () => {
