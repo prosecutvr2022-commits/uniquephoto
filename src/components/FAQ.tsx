@@ -73,13 +73,13 @@ export const FAQ: React.FC = () => {
             Have a custom question not listed here?
           </p>
           <a
-            href="https://wa.me/919876543210?text=Hi%20Unique%20Capture%20Studio,%20I%20have%20a%20question%20regarding%20booking%20my%20event."
+            href="https://wa.me/918754643897?text=Hi%20Unique%20Capture%20Studio,%20I%20have%20a%20question%20regarding%20booking%20my%20event."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#25D366] text-black font-bold text-xs hover:opacity-95 transition-all shadow-lg"
           >
             <MessageCircle className="w-4 h-4 fill-black" />
-            <span>Chat Directly on WhatsApp (+91 98765 43210)</span>
+            <span>Chat Directly on WhatsApp (+91 87546 43897)</span>
           </a>
         </div>
 

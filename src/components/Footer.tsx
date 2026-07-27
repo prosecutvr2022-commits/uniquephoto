@@ -51,28 +51,25 @@ export const Footer: React.FC = () => {
 
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://instagram.com/uniquecapturestudio"
-                target="_blank"
-                rel="noreferrer"
-                className="w-8 h-8 rounded-full bg-gray-900 border border-gray-800 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-300"
+                href="#"
+                onClick={(e) => e.preventDefault()}
+                className="w-8 h-8 rounded-full bg-gray-900 border border-gray-800 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-300 cursor-default"
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://facebook.com/uniquecapturestudio"
-                target="_blank"
-                rel="noreferrer"
-                className="w-8 h-8 rounded-full bg-gray-900 border border-gray-800 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-300"
+                href="#"
+                onClick={(e) => e.preventDefault()}
+                className="w-8 h-8 rounded-full bg-gray-900 border border-gray-800 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-300 cursor-default"
                 aria-label="Facebook"
               >
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://youtube.com/uniquecapturestudio"
-                target="_blank"
-                rel="noreferrer"
-                className="w-8 h-8 rounded-full bg-gray-900 border border-gray-800 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-300"
+                href="#"
+                onClick={(e) => e.preventDefault()}
+                className="w-8 h-8 rounded-full bg-gray-900 border border-gray-800 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-300 cursor-default"
                 aria-label="YouTube"
               >
                 <Youtube className="w-4 h-4" />
@@ -125,10 +122,9 @@ export const Footer: React.FC = () => {
               {instagramPosts.map((url, i) => (
                 <a
                   key={i}
-                  href="https://instagram.com/uniquecapturestudio"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="aspect-square relative group overflow-hidden block"
+                  href="#"
+                  onClick={(e) => e.preventDefault()}
+                  className="aspect-square relative group overflow-hidden block cursor-default"
                 >
                   <img src={url} alt="Instagram Post" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">

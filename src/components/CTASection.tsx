@@ -41,16 +41,16 @@ export const CTASection: React.FC<CTASectionProps> = ({ onOpenBookModal }) => {
 
           {/* Call Us */}
           <a
-            href="tel:+919876543210"
+            href="tel:+918754643897"
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-black/80 border border-[#D4AF37]/50 text-white font-bold text-base hover:border-[#D4AF37] hover:bg-[#D4AF37]/10 transition-all"
           >
             <Phone className="w-5 h-5 text-[#D4AF37]" />
-            <span>Call Us (+91 98765 43210)</span>
+            <span>Call Us (+91 87546 43897)</span>
           </a>
 
           {/* WhatsApp */}
           <a
-            href="https://wa.me/919876543210?text=Hi%20Unique%20Capture%20Studio,%20I%20would%20like%20to%20book%20a%20shoot."
+            href="https://wa.me/918754643897?text=Hi%20Unique%20Capture%20Studio,%20I%20would%20like%20to%20book%20a%20shoot."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-[#25D366] text-black font-bold text-base hover:opacity-95 transition-opacity shadow-lg"

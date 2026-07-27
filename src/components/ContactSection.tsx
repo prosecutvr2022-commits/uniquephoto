@@ -95,8 +95,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onSubmitSuccess 
                   </div>
                   <div>
                     <strong className="text-white block font-medium">Phone / WhatsApp:</strong>
-                    <a href="tel:+919876543210" className="text-gray-300 hover:text-[#D4AF37]">
-                      +91 98765 43210 / +91 98765 43211
+                    <a href="tel:+918754643897" className="text-gray-300 hover:text-[#D4AF37]">
+                      +91 87546 43897
                     </a>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onSubmitSuccess 
                     <input
                       type="tel"
                       required
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 87546 43897"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full bg-black/60 border border-gray-700 focus:border-[#D4AF37] rounded-xl px-4 py-3 text-sm text-white focus:outline-none"

@@ -81,11 +81,11 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="hidden sm:flex items-center gap-3">
             {/* Phone Button */}
             <a
-              href="tel:+919876543210"
+              href="tel:+918754643897"
               className="flex items-center gap-2 text-xs font-semibold px-3 py-2 rounded-full border border-[#D4AF37]/30 text-gray-200 hover:text-[#D4AF37] hover:border-[#D4AF37] transition-all bg-black/40"
             >
               <Phone className="w-3.5 h-3.5 text-[#D4AF37]" />
-              <span>+91 98765 43210</span>
+              <span>+91 87546 43897</span>
             </a>
 
             {/* Jotform AI Chat Quick Badge */}
@@ -162,11 +162,11 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <div className="pt-4 border-t border-gray-800 flex flex-col gap-3">
             <a
-              href="tel:+919876543210"
+              href="tel:+918754643897"
               className="flex items-center justify-center gap-2 py-2.5 rounded-xl border border-gray-700 text-gray-200 text-sm font-medium"
             >
               <Phone className="w-4 h-4 text-[#D4AF37]" />
-              <span>Call +91 98765 43210</span>
+              <span>Call +91 87546 43897</span>
             </a>
 
             <button
