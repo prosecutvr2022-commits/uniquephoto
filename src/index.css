@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  
+  .font-sans-body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #FFF0B3 0%, #D4AF37 50%, #AA7C11 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+  }
+
+  .border-gold-glow {
+    border-color: rgba(212, 175, 55, 0.3);
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.2);
+  }
+
+  .bg-frosted-dark {
+    background: radial-gradient(circle at top right, #1a1a1a 0%, #050505 50%, #000000 100%),
+                radial-gradient(circle at bottom left, #2c2211 0%, #080808 60%, #000000 100%);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  }
+
+  .glass-card-gold {
+    background: rgba(26, 22, 14, 0.65);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 175, 55, 0.1);
+  }
+
+  .glass-panel {
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-button {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .glass-button:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(212, 175, 55, 0.5);
+  }
+}
+
+/* Custom Gold Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2414;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Keyframes for subtle ambient background animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+

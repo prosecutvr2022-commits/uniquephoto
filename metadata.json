@@ -1,0 +1,6 @@
+{
+  "name": "Unique Capture Studio",
+  "description": "Luxury photography, cinematic videography, and complete event management services across Tamil Nadu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
